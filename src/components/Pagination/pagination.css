@@ -1,0 +1,38 @@
+.pagination-container{
+    margin-top: 30px;
+}
+
+.page-size{
+    font-size: 20px;
+}
+
+.page-size-dropdown{
+    padding:5px;
+    margin-left: 20px;
+}
+
+.pagination-bar{
+    width: 100%;
+    margin-top:10px;
+    /* overflow-x:scroll; */
+}
+.page-button{
+    cursor: pointer;
+}
+.active-page{
+    cursor: pointer;
+    background-color: #555555;
+    outline: none;
+    color: aliceblue;
+}
+
+.view-favorite{
+    border:none;
+    outline: none;
+    padding: 5px;
+    float: right;
+    background:none;
+    font-size:20px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search-input{
+    border: none;
+    border-bottom:2px solid gray; 
+    outline: none;
+    height: 20px;
+    padding: 5px;
+    font-size: 20px;
+    width: 400px;
+}
+.search-input:focus{
+    border:none;
+    border-bottom: 2px solid teal;
+}
+.city-dropdown{
+    outline: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.city-dropdown:focus{
+    outline: teal solid 1px;
+}
